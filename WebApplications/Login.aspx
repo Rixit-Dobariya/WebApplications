@@ -9,6 +9,11 @@
         <div align="center">
             <table border="1">
                 <tr>
+                    <td colspan="2" align="center">
+                        Login Form
+                    </td>
+                </tr>
+                <tr>
                     <td><asp:Label ID="Label1" runat="server" Text="Username:"></asp:Label></td>
                     <td><asp:TextBox ID="txtusername" runat="server"></asp:TextBox></td>
                 </tr>
