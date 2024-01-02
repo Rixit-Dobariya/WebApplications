@@ -16,7 +16,7 @@ namespace WebApplications
 
         protected void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            Label3.Text += txtSearch.Text;
+            Label3.Text= "Search For:" +  txtSearch.Text;
         }
     }
 }
