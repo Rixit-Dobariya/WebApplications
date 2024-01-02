@@ -43,7 +43,7 @@
                         <asp:Label ID="Label8" runat="server" Text="Gender: "></asp:Label>
                     </td>
                     <td class="auto-style2">
-                        <asp:RadioButtonList ID="RadioButtonList1" RepeatDirection="Horizontal" runat="server" Width="143px">
+                        <asp:RadioButtonList ID="rdlGender" RepeatDirection="Horizontal" runat="server" Width="143px">
                             <asp:ListItem>Male</asp:ListItem>
                             <asp:ListItem>Female</asp:ListItem>
                         </asp:RadioButtonList>
@@ -54,10 +54,23 @@
                         <asp:Label ID="Label9" runat="server" Text="Hobby: "></asp:Label>
                     </td>
                     <td class="auto-style2">
-                        <asp:CheckBoxList ID="CheckBoxList1" runat="server" RepeatDirection="Horizontal" Width="199px">
+                        <asp:CheckBoxList ID="chklHobby" runat="server" RepeatDirection="Horizontal" Width="199px">
                             <asp:ListItem>Cricket</asp:ListItem>
                             <asp:ListItem>Web series</asp:ListItem>
                         </asp:CheckBoxList>
+                    </td>
+                </tr>
+                <tr>
+                    <td>           
+                        <asp:Label ID="Label10" runat="server" Text="City: "></asp:Label>
+                    </td>
+                    <td class="auto-style2">
+                        <asp:DropDownList ID="ddlCity" runat="server">
+                            <asp:ListItem>Rajkot</asp:ListItem>
+                            <asp:ListItem>Surat</asp:ListItem>
+                            <asp:ListItem>Bhavnagar</asp:ListItem>
+                            <asp:ListItem>Amreli</asp:ListItem>
+                        </asp:DropDownList>
                     </td>
                 </tr>
                 <tr>
@@ -73,7 +86,7 @@
                         <asp:Label ID="Label2" runat="server" Text="Password:"></asp:Label>
                     </td>
                     <td class="auto-style2">
-                        <input id="Password1" type="password" />
+                        <input id="txtPassword1" type="password" />
                     </td>
                 </tr>
                 <tr>
@@ -81,12 +94,12 @@
                         <asp:Label ID="Label3" runat="server" Text="Confirm Password:"></asp:Label>
                     </td>
                     <td class="auto-style2">
-                        <input id="Password2" type="password" />
+                        <input id="txtPassword2" type="password" />
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" align="center">           
-                        <asp:Button ID="Button1" runat="server" Text="Register" text-align="center" />
+                        <asp:Button ID="btnRegister" runat="server" Text="Register" text-align="center" />
                     </td>
                 </tr>
             </table>
