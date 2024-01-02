@@ -9,14 +9,17 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" Text="Red" />
+            <asp:CheckBox ID="chkRed" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" Text="Red" />
             <br />
-            <asp:CheckBox ID="CheckBox2" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" Text="Green" />
+            <asp:CheckBox ID="chkGreen" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" Text="Green" />
             <br />
-            <asp:CheckBox ID="CheckBox3" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" Text="Blue" />
+            <asp:CheckBox ID="chkBlue" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" Text="Blue" />
             <br />
             <br />
             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+            <br />
+            <br />
+            <asp:Label ID="Label1" runat="server" Text="..."></asp:Label>
         </div>
     </form>
 </body>

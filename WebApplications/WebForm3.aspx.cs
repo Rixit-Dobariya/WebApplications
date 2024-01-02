@@ -21,7 +21,29 @@ namespace WebApplications
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            string str = "";
 
+            if(chkRed.Checked)
+            {
+                str = " " + chkRed.Text;
+            }
+            if (chkGreen.Checked)
+            {
+                str += " " + chkGreen.Text;
+            }
+            if (chkBlue.Checked)
+            {
+                str += " " + chkBlue.Text;
+            }
+
+            if(str=="")
+            {
+                Label1.Text = "Please select any color";
+            }
+            else
+            {
+                Label1.Text = "Selected color is: " + str;
+            }
         }
     }
 }
