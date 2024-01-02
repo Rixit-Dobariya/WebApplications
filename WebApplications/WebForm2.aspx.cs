@@ -18,5 +18,10 @@ namespace WebApplications
         {
             Label3.Text= "Search For:" +  txtSearch.Text;
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Label4.Text = DateTime.Now.ToString();
+        }
     }
 }

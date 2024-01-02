@@ -26,6 +26,11 @@
             <asp:TextBox ID="txtSearch" runat="server" OnTextChanged="txtSearch_TextChanged"></asp:TextBox>
             <br />
             <asp:Label ID="Label3" runat="server" Text="..." ></asp:Label>
+            <br />
+            <br />
+            <asp:Label ID="Label4" runat="server" Text="..." ></asp:Label>
+            <br />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
         </div>
     </form>
 </body>
