@@ -18,6 +18,14 @@
             <asp:Label ID="Label1" runat="server" Text="Label" BackColor="YellowGreen" ForeColor="White" BorderColor="Black" BorderWidth="2px">  </asp:Label>
             <br />
             <asp:Label ID="Label2" runat="server" Text="Label" CssClass="labelStyle"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <br />
+            Search:
+            <asp:TextBox ID="txtSearch" runat="server" OnTextChanged="txtSearch_TextChanged"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label3" runat="server" Text="..." ></asp:Label>
         </div>
     </form>
 </body>
