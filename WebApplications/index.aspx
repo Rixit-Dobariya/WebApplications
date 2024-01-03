@@ -5,12 +5,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style>
+        body{
+            background-image:url('1.jpg');
+            background-size:auto;
+            color:white;
+
+        }
+        .header{
+            text-align:right;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="header">
             <asp:HyperLink ID="HLlogin" runat="server" ToolTip=" " NavigateUrl="~/Login.aspx">Login</asp:HyperLink>&nbsp;<asp:HyperLink ID="HLregister" runat="server" ToolTip=" Register" NavigateUrl="~/Register.aspx">Register</asp:HyperLink>&nbsp;<asp:HyperLink ID="HLwebForm1" runat="server" ToolTip=" " NavigateUrl="~/WebForm1.aspx">Web Form 1</asp:HyperLink>&nbsp;<asp:HyperLink ID="HLwebForm2" runat="server" ToolTip=" " NavigateUrl="~/WebForm2.aspx">Web Form 2</asp:HyperLink>&nbsp;<asp:HyperLink ID="HLwebForm3" runat="server" ToolTip=" " NavigateUrl="~/WebForm3.aspx">Web Form 3</asp:HyperLink>&nbsp;
-            <asp:HyperLink ID="HLwebForm4" runat="server" ToolTip=" " NavigateUrl="~/WebForm4.aspx">Web Form 4</asp:HyperLink></div>
+            <asp:HyperLink ID="HLwebForm4" runat="server" ToolTip=" " NavigateUrl="~/WebForm4.aspx">Web Form 4</asp:HyperLink>
+
+        </div>
+        <div>
+
+            <strong>Personal Information<br />
+            </strong>
+            <br />
+            <br />
+            Name: Jivani Anujkumar Dalsukhbhai<br />
+            Roll no: 6<br />
+            Standard: 6BCA - B<br />
+&nbsp;</div>
     </form>
 </body>
 </html>
