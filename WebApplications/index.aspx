@@ -7,10 +7,9 @@
     <title></title>
     <style>
         body{
-            background-image:url('1.jpg');
+            background-image:url('images/1.jpg');
             background-size:auto;
             color:white;
-
         }
         .text{
             color:white;
@@ -43,7 +42,7 @@
             Name: Jivani Anujkumar Dalsukhbhai<br />
             Roll no: 28<br />
             Standard: 6BCA - B<br />
-&nbsp;</div>
+        </div>
     </form>
 </body>
 </html>
